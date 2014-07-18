@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E401E7F1979496F00D3B0E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E401E7E1979496F00D3B0E7 /* main.swift */; };
+		5E401E811979496F00D3B0E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E401E801979496F00D3B0E7 /* ViewController.swift */; };
+		5E401E831979496F00D3B0E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E401E821979496F00D3B0E7 /* AppDelegate.swift */; };
+		5E401E851979496F00D3B0E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E841979496F00D3B0E7 /* Images.xcassets */; };
+		5E401E881979496F00D3B0E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E401E861979496F00D3B0E7 /* Main.storyboard */; };
+		5E401E941979496F00D3B0E7 /* SimpleToolbarWireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E401E931979496F00D3B0E7 /* SimpleToolbarWireTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E401E8E1979496F00D3B0E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E401E711979496F00D3B0E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E401E781979496F00D3B0E7;
+			remoteInfo = SimpleToolbarWire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E401E791979496F00D3B0E7 /* SimpleToolbarWire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToolbarWire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E401E7D1979496F00D3B0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E401E7E1979496F00D3B0E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5E401E801979496F00D3B0E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E401E821979496F00D3B0E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E401E841979496F00D3B0E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5E401E871979496F00D3B0E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E401E8D1979496F00D3B0E7 /* SimpleToolbarWireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleToolbarWireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E401E921979496F00D3B0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E401E931979496F00D3B0E7 /* SimpleToolbarWireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleToolbarWireTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E401E761979496F00D3B0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E401E8A1979496F00D3B0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E401E701979496F00D3B0E7 = {
+			isa = PBXGroup;
+			children = (
+				5E401E7B1979496F00D3B0E7 /* SimpleToolbarWire */,
+				5E401E901979496F00D3B0E7 /* SimpleToolbarWireTests */,
+				5E401E7A1979496F00D3B0E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E401E7A1979496F00D3B0E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E401E791979496F00D3B0E7 /* SimpleToolbarWire.app */,
+				5E401E8D1979496F00D3B0E7 /* SimpleToolbarWireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E401E7B1979496F00D3B0E7 /* SimpleToolbarWire */ = {
+			isa = PBXGroup;
+			children = (
+				5E401E801979496F00D3B0E7 /* ViewController.swift */,
+				5E401E821979496F00D3B0E7 /* AppDelegate.swift */,
+				5E401E841979496F00D3B0E7 /* Images.xcassets */,
+				5E401E861979496F00D3B0E7 /* Main.storyboard */,
+				5E401E7C1979496F00D3B0E7 /* Supporting Files */,
+			);
+			path = SimpleToolbarWire;
+			sourceTree = "<group>";
+		};
+		5E401E7C1979496F00D3B0E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E401E7D1979496F00D3B0E7 /* Info.plist */,
+				5E401E7E1979496F00D3B0E7 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E401E901979496F00D3B0E7 /* SimpleToolbarWireTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E401E931979496F00D3B0E7 /* SimpleToolbarWireTests.swift */,
+				5E401E911979496F00D3B0E7 /* Supporting Files */,
+			);
+			path = SimpleToolbarWireTests;
+			sourceTree = "<group>";
+		};
+		5E401E911979496F00D3B0E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E401E921979496F00D3B0E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E401E781979496F00D3B0E7 /* SimpleToolbarWire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E401E971979496F00D3B0E7 /* Build configuration list for PBXNativeTarget "SimpleToolbarWire" */;
+			buildPhases = (
+				5E401E751979496F00D3B0E7 /* Sources */,
+				5E401E761979496F00D3B0E7 /* Frameworks */,
+				5E401E771979496F00D3B0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleToolbarWire;
+			productName = SimpleToolbarWire;
+			productReference = 5E401E791979496F00D3B0E7 /* SimpleToolbarWire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E401E8C1979496F00D3B0E7 /* SimpleToolbarWireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E401E9A1979496F00D3B0E7 /* Build configuration list for PBXNativeTarget "SimpleToolbarWireTests" */;
+			buildPhases = (
+				5E401E891979496F00D3B0E7 /* Sources */,
+				5E401E8A1979496F00D3B0E7 /* Frameworks */,
+				5E401E8B1979496F00D3B0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E401E8F1979496F00D3B0E7 /* PBXTargetDependency */,
+			);
+			name = SimpleToolbarWireTests;
+			productName = SimpleToolbarWireTests;
+			productReference = 5E401E8D1979496F00D3B0E7 /* SimpleToolbarWireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E401E711979496F00D3B0E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "CocoaHeads Brasil";
+				TargetAttributes = {
+					5E401E781979496F00D3B0E7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					5E401E8C1979496F00D3B0E7 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 5E401E781979496F00D3B0E7;
+					};
+				};
+			};
+			buildConfigurationList = 5E401E741979496F00D3B0E7 /* Build configuration list for PBXProject "SimpleToolbarWire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E401E701979496F00D3B0E7;
+			productRefGroup = 5E401E7A1979496F00D3B0E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E401E781979496F00D3B0E7 /* SimpleToolbarWire */,
+				5E401E8C1979496F00D3B0E7 /* SimpleToolbarWireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E401E771979496F00D3B0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E401E851979496F00D3B0E7 /* Images.xcassets in Resources */,
+				5E401E881979496F00D3B0E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E401E8B1979496F00D3B0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E401E751979496F00D3B0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E401E831979496F00D3B0E7 /* AppDelegate.swift in Sources */,
+				5E401E811979496F00D3B0E7 /* ViewController.swift in Sources */,
+				5E401E7F1979496F00D3B0E7 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E401E891979496F00D3B0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E401E941979496F00D3B0E7 /* SimpleToolbarWireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E401E8F1979496F00D3B0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E401E781979496F00D3B0E7 /* SimpleToolbarWire */;
+			targetProxy = 5E401E8E1979496F00D3B0E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E401E861979496F00D3B0E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E401E871979496F00D3B0E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E401E951979496F00D3B0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E401E961979496F00D3B0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E401E981979496F00D3B0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleToolbarWire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E401E991979496F00D3B0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleToolbarWire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E401E9B1979496F00D3B0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleToolbarWire.app/Contents/MacOS/SimpleToolbarWire";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleToolbarWireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		5E401E9C1979496F00D3B0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleToolbarWire.app/Contents/MacOS/SimpleToolbarWire";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleToolbarWireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E401E741979496F00D3B0E7 /* Build configuration list for PBXProject "SimpleToolbarWire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E401E951979496F00D3B0E7 /* Debug */,
+				5E401E961979496F00D3B0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E401E971979496F00D3B0E7 /* Build configuration list for PBXNativeTarget "SimpleToolbarWire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E401E981979496F00D3B0E7 /* Debug */,
+				5E401E991979496F00D3B0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E401E9A1979496F00D3B0E7 /* Build configuration list for PBXNativeTarget "SimpleToolbarWireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E401E9B1979496F00D3B0E7 /* Debug */,
+				5E401E9C1979496F00D3B0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E401E711979496F00D3B0E7 /* Project object */;
+}
